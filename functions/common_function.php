@@ -63,7 +63,7 @@ function getAllProducts(){
         echo "
         <div class='col-md-3 mb-2'>
           <div class='card' style='width: 16rem;'>
-            <img src='./admin-area/product_images/$product_image' class='card-img-top' alt='$product_title'/>
+            <img src='../admin/product_images/$product_image' class='card-img-top' alt='$product_title'/>
             <div class='card-body'>
               <h5 class='card-title'>$product_title</h5>
               <p class='card-text'>$product_desc</p>
