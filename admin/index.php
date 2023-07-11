@@ -74,7 +74,7 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="insert_product.php">Add Product</a>
-                        <a class="collapse-item" href="http://localhost/nonces/admin-area/indextemp2.php?view_products">View Product</a>
+                        <a class="collapse-item" href="http://localhost/nonces/admin/indextemp2.php?view_products">View Product</a>
                     </div>
                 </div>
             </li>

@@ -5,15 +5,19 @@
 <?php
 // Mengambil alamat IP pengguna menggunakan metode alternatif
 function getIPAddress() {
-  // Cek apakah pengguna terhubung melalui proxy
-  if(!empty($_SERVER['HTTP_CLIENT_IP'])){
-    $ip = $_SERVER['HTTP_CLIENT_IP'];
-  } elseif(!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){
-    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-  } else{
-    $ip = $_SERVER['REMOTE_ADDR'];
-  }
-  return $ip;
+	//whether ip is from the share internet
+    if(!empty($_SERVER['HTTP_CLIENT_IP'])) {
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+    }
+	//whether ip is from the proxy
+	elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    	$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+   	}
+//whether ip is from the remote address
+	else{
+       	$ip = $_SERVER['REMOTE_ADDR'];
+   	}
+   	return $ip;
 }
 
 
