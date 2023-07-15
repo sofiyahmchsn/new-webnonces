@@ -53,7 +53,7 @@
                 <div class="site-top-icons">
                   <ul>
                     <li class="has-children">
-                      <a href="?page=profile">
+                      <a href="./user-area/profile.php">
                         <span class="icon icon-person"></span>
                       </a>
                       <ul class="dropdown">
@@ -110,9 +110,10 @@
           include"contact.php";
         }else if(@$_GET['page'] == 'about'){
           include"about.php";
-        }else if(@$_GET['page'] == 'profile'){
-          include"./user-area/profile.php";
         }
+        // else if(@$_GET['page'] == 'profile'){
+        //   include"./user-area/profile.php";
+        // }
       ?>
 
       <footer class="site-footer border-top">

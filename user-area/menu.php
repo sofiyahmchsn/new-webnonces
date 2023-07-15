@@ -5,7 +5,7 @@
           <div class="row">
             <div class="col-md-12 mb-0">
               <a href="index.html">Home</a> <span class="mx-2 mb-0">/</span>
-              <strong class="text-black">Shop</strong>
+              <strong class="text-black">Menu</strong>
             </div>
           </div>
         </div>
@@ -18,7 +18,7 @@
               <div class="row">
                 <div class="col-md-12 mb-5">
                   <div class="float-md-left mb-4">
-                    <h2 class="text-black h5">Shop All</h2>
+                    <h2 class="text-black h5">All Menu</h2>
                   </div>
                 </div>
               </div>
@@ -158,13 +158,13 @@
                 </h3>
                 <ul class="list-unstyled mb-0">
                   <li class="mb-1">
-                    <a href="#" class="d-flex"><span>Men</span>                   
+                    <a href="#" class="d-flex"><span>Cake</span>                   
                   </li>
                   <li class="mb-1">
-                    <a href="#" class="d-flex"><span>Women</span>
+                    <a href="#" class="d-flex"><span>Cookies</span>
                   </li>
                   <li class="mb-1">
-                    <a href="#" class="d-flex"><span>Children</span>                      
+                    <a href="#" class="d-flex"><span>Pasta</span>                      
                   </li>
                 </ul>
               </div>
