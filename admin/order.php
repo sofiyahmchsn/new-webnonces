@@ -23,6 +23,8 @@
               <th>Price</th>
               <th>Total Product</th>
               <th>Date</th>
+              <th>Recipt</th>
+              <th>Status</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -33,6 +35,8 @@
               <td>Rp. 450000</td>
               <td>2</td>
               <td>21/3/2023</td>
+              <td><img src="" alt=""></td>
+              <td>Complete/Incomplete</td>
               <td class="d-flex">
                 <a href="">
                   <i class="fas fa-trash fa-sm fa-fw mr-2 text-gray-400"></i>

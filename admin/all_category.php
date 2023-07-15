@@ -29,7 +29,7 @@
               <td>Lapis Legit</td>
               <td class="d-flex">
                 <a href="">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <i class="fas fa-pen fa-sm fa-fw mr-2 text-gray-400"></i>
                 </a>
                 <a href="">
                   <i class="fas fa-trash fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -41,7 +41,7 @@
               <td>Cookies</td>
               <td class="d-flex">
                 <a href="">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <i class="fas fa-pen fa-sm fa-fw mr-2 text-gray-400"></i>
                 </a>
                 <a href="">
                   <i class="fas fa-trash fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -53,7 +53,7 @@
               <td>Pasta</td>
               <td class="d-flex">
                 <a href="">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <i class="fas fa-pen fa-sm fa-fw mr-2 text-gray-400"></i>
                 </a>
                 <a href="">
                   <i class="fas fa-trash fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -65,7 +65,7 @@
               <td>Cake</td>
               <td class="d-flex">
                 <a href="">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  <i class="fas fa-pen fa-sm fa-fw mr-2 text-gray-400"></i>
                 </a>
                 <a href="">
                   <i class="fas fa-trash fa-sm fa-fw mr-2 text-gray-400"></i>
