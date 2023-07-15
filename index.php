@@ -53,11 +53,11 @@
                 <div class="site-top-icons">
                   <ul>
                     <li class="has-children">
-                      <a href="./user-area/profile.php">
+                      <a href="#">
                         <span class="icon icon-person"></span>
                       </a>
                       <ul class="dropdown">
-                        <li><a href="?page=profile">My Profile</a></li>
+                        <li><a href="?page=my_profile">My Profile</a></li>
                         <li><a href="?page=my_orders">My Orders</a></li>
                         <li><a href="./user-area/logout.php">Logout</a></li>
                       </ul>
@@ -110,10 +110,9 @@
           include"contact.php";
         }else if(@$_GET['page'] == 'about'){
           include"about.php";
+        }else if(@$_GET['page'] == 'my_profile'){
+          include"./user-area/profile.php";
         }
-        // else if(@$_GET['page'] == 'profile'){
-        //   include"./user-area/profile.php";
-        // }
       ?>
 
       <footer class="site-footer border-top">
