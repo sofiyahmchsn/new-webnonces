@@ -104,15 +104,20 @@
           include"dashboard.php";
         }else if(@$_GET['page'] == 'menu'){
           include"./user-area/menu.php";
-        }else if(@$_GET['page'] == 'cart'){
-          include"cart.php";
         }else if(@$_GET['page'] == 'contact'){
           include"contact.php";
         }else if(@$_GET['page'] == 'about'){
           include"about.php";
         }else if(@$_GET['page'] == 'my_profile'){
           include"./user-area/profile.php";
+        }else if(@$_GET['page'] == 'my_orders'){
+          include"./user-area/all_orders.php";
+        }else if(@$_GET['page'] == 'cart'){
+          include"cart.php";
         }
+        // else if(@$_GET['page'] == 'checkout'){
+        //   include"checkout.php";
+        // }
       ?>
 
       <footer class="site-footer border-top">

@@ -4,14 +4,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 mb-0">
-              <a href="index.html">Home</a> <span class="mx-2 mb-0">/</span>
+              <a href="?page=dashboard">Home</a> <span class="mx-2 mb-0">/</span>
               <strong class="text-black">Cart</strong>
             </div>
           </div>
         </div>
       </div>
 <!-- cart -->
-<div class="site-wrap">
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
@@ -89,7 +88,7 @@
                 <button class="btn btn-primary btn-sm btn-block">Update Cart</button>
               </div>
               <div class="col-md-6">
-                <button class="btn btn-outline-primary btn-sm btn-block">Continue Shopping</button>
+                <button class="btn btn-outline-primary btn-sm btn-block"><a href="?page=dashboard">Continue Shopping</a></button>
               </div>
             </div>
           </div>
@@ -113,6 +112,7 @@
                 <div class="row">
                   <div class="col-md-12">
                     <button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='checkout.php'">Proceed To Checkout</button>
+                    <!-- <a href="?page=checkout">Proceed To Checkout</a> -->
                   </div>
                 </div>
               </div>

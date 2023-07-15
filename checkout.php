@@ -26,8 +26,8 @@
     <div class="bg-light py-3">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 mb-0"><a href="index.html">Home</a> 
-            <span class="mx-2 mb-0">/</span> <a href="cart.html">Cart</a> 
+          <div class="col-md-12 mb-0"><a href="?page=dashboard">Home</a> 
+            <span class="mx-2 mb-0">/</span> <strong class="text-black">Cart</strong>
             <span class="mx-2 mb-0">/</span> <strong class="text-black">Checkout</strong>
           </div>
         </div>
@@ -123,33 +123,6 @@
         </div>
       </div>
     </div>
-
-    <footer class="site-footer border-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="block-5 mb-5">
-              <h3 class="footer-heading mb-4">Contact Info</h3>
-              <ul class="list-unstyled">
-                <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
-                <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
-                <li class="email">emailaddress@domain.com</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </footer>
   </div>
 
   <script src="js/jquery-3.3.1.min.js"></script>
