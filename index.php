@@ -1,172 +1,158 @@
-<?php
-  include('config/config.php');
-  session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>NONCES</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Nonces &mdash; Dashboard</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"> 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Mukta:300,400,700"
+    />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
 
+    <link rel="stylesheet" href="css/aos.css" />
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="css/style.css">
-    
+    <style>
+      .img_product{
+        width: 100px;
+        object-fit: contain;
+      }
+    </style>
   </head>
   <body>
-  <?php include("navbar/navbar.php") ?>
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/cake1.jpg" class="d-block w-100" alt="Slide 1" width="500" height="300">
-    </div>
-    <div class="carousel-item">
-      <img src="images/cake2.jpg" class="d-block w-100" alt="Slide 2" width="500" height="300">
-    </div>
-    <div class="carousel-item">
-      <img src="images/cookies_1.jpg" class="d-block w-100" alt="Slide 3" width="500" height="300">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+    <div class="site-wrap">
+      <header class="site-navbar" role="banner">
+        <div class="site-navbar-top">
+          <div class="container">
+            <div class="row align-items-center">
+              <div
+                class="col-6 col-md-4 order-2 order-md-1 site-search-icon text-left"
+              ></div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+              <div
+                class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center"
+              >
+                <div class="site-logo">
+                  <a href="index.php" class="js-logo-clone">Nonces</a>
+                </div>
+              </div>
 
-    <div class="site-section block-3 site-blocks-2 bg-light">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-7 site-section-heading text-center pt-4">
-            <h2>Featured Products</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="nonloop-block-3 owl-carousel">
-              <div class="item">
-                <div class="block-4 text-center">
-                  <figure class="block-4-image">
-                    <img src="images/cake_2.jpg" alt="Image placeholder" class="img-fluid">
-                  </figure>
-                  <div class="block-4-text p-4">
-                    <h3><a href="#">Choco Cake</a></h3>
-                    <p class="mb-0">Baked Chocolate Cake</p>
-                    <p class="text-primary font-weight-bold">Rp.50.000</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="block-4 text-center">
-                  <figure class="block-4-image">
-                    <img src="images/cookies_1.jpg" alt="Image placeholder" class="img-fluid" width="300" height="300">
-                  </figure>
-                  <div class="block-4-text p-4">
-                    <h3><a href="#">Cookies</a></h3>
-                    <p class="mb-0">Chocolate Cookies</p>
-                    <p class="text-primary font-weight-bold">Rp.50.000</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="block-4 text-center">
-                  <figure class="block-4-image">
-                    <img src="images/cake_2.jpg" alt="Image placeholder" class="img-fluid"  width="300" height="300" >
-                  </figure>
-                  <div class="block-4-text p-4">
-                    <h3><a href="#">Choco Cake</a></h3>
-                    <p class="mb-0">Baked Chocolate Cake</p>
-                    <p class="text-primary font-weight-bold">Rp.50.000</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="block-4 text-center">
-                  <figure class="block-4-image">
-                    <img src="images/cookies_1.jpg" alt="Image placeholder" class="img-fluid">
-                  </figure>
-                  <div class="block-4-text p-4">
-                    <h3><a href="#">Cookies</a></h3>
-                    <p class="mb-0">Chocolate Cookies</p>
-                    <p class="text-primary font-weight-bold">Rp.50.000</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="block-4 text-center">
-                  <figure class="block-4-image">
-                    <img src="images/cake_2.jpg" alt="Image placeholder" class="img-fluid">
-                  </figure>
-                  <div class="block-4-text p-4">
-                    <h3><a href="#">Choco Cake</a></h3>
-                    <p class="mb-0">Baked Chocolate Cake</p>
-                    <p class="text-primary font-weight-bold">Rp.50.000</p>
-                  </div>
+              <div class="col-6 col-md-4 order-3 order-md-3 text-right">
+                <div class="site-top-icons">
+                  <ul>
+                    <li class="has-children">
+                      <a href="?page=profile">
+                        <span class="icon icon-person"></span>
+                      </a>
+                      <ul class="dropdown">
+                        <li><a href="?page=profile">My Profile</a></li>
+                        <li><a href="?page=my_orders">My Orders</a></li>
+                        <li><a href="./user-area/logout.php">Logout</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="?page=cart" class="site-cart">
+                        <span class="icon icon-shopping_cart"></span>
+                        <span class="count">2</span>
+                      </a>
+                    </li>
+                    <li class="d-inline-block d-md-none ml-md-0">
+                      <a href="#" class="site-menu-toggle js-menu-toggle"
+                        ><span class="icon-menu"></span
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        <nav class="site-navigation text-right text-md-center" role="navigation">
+          <div class="container">
+            <ul class="site-menu js-clone-nav d-none d-md-block">
+              <li><a href="?page=dashboard">Home</a></li>
+              <li class="has-children">
+                <a href="#">Category</a>
+                <ul class="dropdown">
+                  <li><a href="#">Cat One</a></li>
+                  <li><a href="#">Cat Two</a></li>
+                  <li><a href="#">Cat Three</a></li>
+                </ul>
+              </li>
+              <li><a href="?page=menu">Our Menu</a></li>
+              <li><a href="?page=contact">Contact</a></li>
+              <li><a href="?page=about">About</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
 
-  
+      <?php
+        if(@$_GET['page'] == 'dashboard' || @$_GET['page'] == ''){
+          include"dashboard.php";
+        }else if(@$_GET['page'] == 'menu'){
+          include"./user-area/menu.php";
+        }else if(@$_GET['page'] == 'cart'){
+          include"cart.php";
+        }else if(@$_GET['page'] == 'contact'){
+          include"contact.php";
+        }else if(@$_GET['page'] == 'about'){
+          include"about.php";
+        }else if(@$_GET['page'] == 'profile'){
+          include"./user-area/profile.php";
+        }
+      ?>
 
-    <footer class="site-footer border-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-5 mb-lg-0">
-            <div class="row">
-              <div class="col-md-6 col-lg-4">
-              </div>
+      <footer class="site-footer border-top">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script
+                  data-cfasync="false"
+                  src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+                ></script>
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="icon-heart" aria-hidden="true"></i> by
+                <a
+                  href="https://github.com/sofiyahmchsn"
+                  target="_blank"
+                  class="text-primary"
+                  >sofiyahmchsn</a
+                >
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
             </div>
           </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | Sofiyah <i class="" aria-hidden="true"></i>
-            </p>
-          </div>
-          
         </div>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
 
-  <script src="js/main.js"></script>
-    
+    <script src="js/main.js"></script>
   </body>
 </html>
