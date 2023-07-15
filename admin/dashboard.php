@@ -1,3 +1,6 @@
+<!-- Page Heading -->
+<h1 class="h3 mb-5 text-gray-800">Dashboard</h1>
+
 <!-- Content Row -->
 <div class="row">
   <!-- pesanan -->
