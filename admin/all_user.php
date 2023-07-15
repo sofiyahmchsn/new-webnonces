@@ -1,7 +1,7 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
   <!-- Page Heading -->
-  <h1 class="h3 mb-5 text-gray-800">All Products</h1>
+  <h1 class="h3 mb-5 text-gray-800">All User</h1>
 
   <!-- Data products -->
   <div class="card shadow mb-4">

@@ -10,7 +10,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>SB Admin 2 - Blank</title>
+    <title>Nonces Admin</title>
 
     <!-- Custom fonts for this template-->
     <link
@@ -80,8 +80,12 @@
             data-parent="#accordionSidebar"
           >
             <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="index.php?page=all_category">All Category</a>
-              <a class="collapse-item" href="index.php?page=insert_category">Insert Category</a>
+              <a class="collapse-item" href="index.php?page=all_category"
+                >All Category</a
+              >
+              <a class="collapse-item" href="index.php?page=insert_category"
+                >Insert Category</a
+              >
             </div>
           </div>
         </li>
@@ -106,8 +110,12 @@
             data-parent="#accordionSidebar"
           >
             <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="index.php?page=all_product">All Product</a>
-              <a class="collapse-item" href="index.php?page=insert_product">Insert Product</a>
+              <a class="collapse-item" href="index.php?page=all_product"
+                >All Product</a
+              >
+              <a class="collapse-item" href="index.php?page=insert_product"
+                >Insert Product</a
+              >
             </div>
           </div>
         </li>
@@ -115,39 +123,43 @@
         <li class="nav-item">
           <a
             class="nav-link collapsed"
-            href="index.php?page=user_data"
+            href="#"
             data-toggle="collapse"
-            data-target="#collapseUtilities"
+            data-target="#collapsePages"
             aria-expanded="true"
-            aria-controls="collapseUtilities"
+            aria-controls="collapsePages"
           >
-            <i class="fas fa-fw fa-wrench"></i>
+            <i class="fas fa-fw fa-folder"></i>
             <span>User Data</span>
           </a>
           <div
-            id="collapseUtilities"
+            id="collapsePages"
             class="collapse"
-            aria-labelledby="headingUtilities"
+            aria-labelledby="headingPages"
             data-parent="#accordionSidebar"
           >
             <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="utilities-border.html">All User</a>
-              <a class="collapse-item" href="utilities-color.html">Add User</a>
+              <a class="collapse-item" href="index.php?page=all_user"
+                >All User</a
+              >
+              <a class="collapse-item" href="index.php?page=add_user"
+                >Add User</a
+              >
             </div>
           </div>
         </li>
 
         <!-- Nav Item - Pemesanan -->
         <li class="nav-item">
-          <a class="nav-link" href="tables.html">
+          <a class="nav-link" href="index.php?page=order">
             <i class="fas fa-fw fa-table"></i>
             <span>Orders</span></a
           >
         </li>
         <!-- Nav Item - Laporan Penjualan -->
         <li class="nav-item">
-          <a class="nav-link" href="tables.html">
-            <i class="fas fa-fw fa-table"></i>
+          <a class="nav-link" href="index.php?page=report">
+            <i class="fas fa-fw fa-chart-area"></i>
             <span>Sales Report</span></a
           >
         </li>
@@ -252,8 +264,20 @@
               include"dashboard.php";
             }else if(@$_GET['page'] == 'all_category'){
               include"all_category.php";
+            }else if(@$_GET['page'] == 'insert_category'){
+              include"insert_categories.php";
             }else if(@$_GET['page'] == 'all_product'){
-              include"all_product.html";
+              include"all_product.php";
+            }else if(@$_GET['page'] == 'insert_product'){
+              include"insert_product.php";
+            }else if(@$_GET['page'] == 'all_user'){
+              include"all_user.php";
+            }else if(@$_GET['page'] == 'add_user'){
+              include"add_user.php";
+            }else if(@$_GET['page'] == 'order'){
+              include"order.php";
+            }else if(@$_GET['page'] == 'report'){
+              include"report.php";
             }
             ?>
           </div>
@@ -265,7 +289,7 @@
         <footer class="sticky-footer bg-white">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright &copy; Sofiyahmchsn 2020</span>
+              <span>Copyright &copy; Sofiyahmchsn 2023</span>
             </div>
           </div>
         </footer>

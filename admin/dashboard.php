@@ -1,6 +1,5 @@
 <!-- Page Heading -->
 <h1 class="h3 mb-5 text-gray-800">Dashboard</h1>
-
 <!-- Content Row -->
 <div class="row">
   <!-- pesanan -->
@@ -70,7 +69,7 @@
         <div class="row no-gutters align-items-center">
           <div class="col mr-2">
             <div
-              class="text-xs font-weight-bold text-warning text-uppercase mb-1"
+              class="text-xs font-weight-bold text-info text-uppercase mb-1"
             >
               Data User
             </div>
