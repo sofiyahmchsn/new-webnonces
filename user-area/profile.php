@@ -22,25 +22,25 @@
                 <div class="form-group row">
                   <div class="col-md-12">
                     <label for="c_name" class="text-black">Name</label>
-                    <input type="text" class="form-control" id="c_email" name="c_email" value="nama">
+                    <input type="text" class="form-control" id="c_email" name="c_email" value="Sofiyah">
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-12">
                     <label for="c_username" class="text-black">Username</label>
-                    <input type="text" class="form-control" id="c_email" name="c_email" value="username">
+                    <input type="text" class="form-control" id="c_email" name="c_email" value="sofiyah">
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-12">
                     <label for="c_email" class="text-black">Email</label>
-                    <input type="email" class="form-control" id="c_email" name="c_email" value="email">
+                    <input type="email" class="form-control" id="c_email" name="c_email" value="sofiyah@gmail.com">
                   </div>
                 </div>
                 <div class="form-group row">
                   <div class="col-md-12">
                     <label for="c_address" class="text-black">Address </label>
-                    <input type="text" class="form-control" id="c_subject" name="c_subject" value="address">
+                    <input type="text" class="form-control" id="c_subject" name="c_subject" value="jakarta selatan">
                   </div>
                 </div>
                 <div class="form-group row">

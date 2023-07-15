@@ -59,6 +59,7 @@
                       <ul class="dropdown">
                         <li><a href="?page=my_profile">My Profile</a></li>
                         <li><a href="?page=my_orders">My Orders</a></li>
+                        <li><a href="./user-area/login_user.php">Login</a></li>
                         <li><a href="./user-area/logout.php">Logout</a></li>
                       </ul>
                     </li>
