@@ -28,7 +28,7 @@
               <td>1.</td>
               <td>Lapis Legit</td>
               <td class="d-flex">
-                <a href="">
+                <a href="index.php?page=edit_category">
                   <i class="fas fa-pen fa-sm fa-fw mr-2 text-gray-400"></i>
                 </a>
                 <a href="">

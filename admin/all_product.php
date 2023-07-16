@@ -35,12 +35,18 @@
               <td>Lapis Legit Nutella</td>
               <td>20x20</td>
               <td>Lapis Legit</td>
-              <td><img src="" alt="" /></td>
+              <td>
+                <img
+                  src="./product_images/lapis-legit-nutella.jpg"
+                  alt=""
+                  class="product_img"
+                />
+              </td>
               <td>Rp. 450000</td>
               <td>21/3/2023</td>
               <td>True</td>
               <td class="d-flex">
-                <a href="">
+                <a href="index.php?page=edit_product">
                   <i class="fas fa-pen fa-sm fa-fw mr-2 text-gray-400"></i>
                 </a>
                 <a href="">
@@ -53,7 +59,13 @@
               <td>Marmer cake cup</td>
               <td>8x8</td>
               <td>Cake</td>
-              <td><img src="" alt="" /></td>
+              <td>
+                <img
+                  src="./product_images/marmer-cake-cup.jpg"
+                  alt=""
+                  class="product_img"
+                />
+              </td>
               <td>Rp. 100000</td>
               <td>19/3/2023</td>
               <td>True</td>
@@ -71,7 +83,13 @@
               <td>Lapis Legit Keju</td>
               <td>20x20</td>
               <td>Lapis Legit</td>
-              <td><img src="" alt="" /></td>
+              <td>
+                <img
+                  src="./product_images/lapis-legit-keju.jpg"
+                  alt=""
+                  class="product_img"
+                />
+              </td>
               <td>Rp. 400000</td>
               <td>21/3/2023</td>
               <td>True</td>
@@ -89,7 +107,13 @@
               <td>Baked Potatoe</td>
               <td>20x20</td>
               <td>Pasta</td>
-              <td><img src="" alt="" /></td>
+              <td>
+                <img
+                  src="./product_images/backed-potato.jpg"
+                  alt=""
+                  class="product_img"
+                />
+              </td>
               <td>Rp. 175000</td>
               <td>21/3/2023</td>
               <td>True</td>

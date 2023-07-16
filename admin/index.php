@@ -25,6 +25,12 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet" />
+    <style>
+      .product_img{
+        width: 100px;
+        object-fit: contain;
+      }
+    </style>
   </head>
 
   <body id="page-top">
@@ -264,10 +270,14 @@
               include"dashboard.php";
             }else if(@$_GET['page'] == 'all_category'){
               include"all_category.php";
+            }else if(@$_GET['page'] == 'edit_category'){
+              include"edit_category.php";
             }else if(@$_GET['page'] == 'insert_category'){
-              include"insert_categories.php";
+              include"insert_category.php";
             }else if(@$_GET['page'] == 'all_product'){
               include"all_product.php";
+            }else if(@$_GET['page'] == 'edit_product'){
+              include"edit_product.php";
             }else if(@$_GET['page'] == 'insert_product'){
               include"insert_product.php";
             }else if(@$_GET['page'] == 'all_user'){

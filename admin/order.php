@@ -35,7 +35,7 @@
               <td>Rp. 450000</td>
               <td>2</td>
               <td>21/3/2023</td>
-              <td><img src="" alt=""></td>
+              <td><img src="" alt="" class="product_img"></td>
               <td>Complete/Incomplete</td>
               <td class="d-flex">
                 <a href="">
