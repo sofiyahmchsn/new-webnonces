@@ -13,9 +13,10 @@
         <div class="row">
           <div class="col-md-12">
             <h2 class="h3 mb-3 text-black">Get In Touch</h2>
+            <span class="icon-phone2 p-10"></span>
           </div>
+          
           <div class="col-md-7">
-
             <form action="#" method="post">
               
               <div class="p-3 p-lg-5 border">

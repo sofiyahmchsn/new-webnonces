@@ -91,7 +91,7 @@
                 </div>
               </div>
               <p class="text-center mt-5">
-                <a href="#" class="btn btn-primary btn-sm text-center">Shop Now</a>
+                <a href="index.php?page=menu" class="btn btn-primary btn-sm text-center">Shop Now</a>
               </p>
             </div>
           </div>

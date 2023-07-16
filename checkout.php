@@ -35,14 +35,12 @@
                   <option value="6">Jakarta Utara</option>    
                   <option value="7">Depok</option>    
                   <option value="8">Bekasi</option>   
-                  <option value="9">Take Away</option>   
-                  <option value="10">Free</option>   
-
+                  <option value="9">Take Away</option>    
                 </select>
               </div>
             </div>
           </div>
-          <div class="col-md-6">            
+          <div class="col-md-12">            
             <div class="row mb-5">
               <div class="col-md-12">
                 <h2 class="h3 mt-5 mb-3 text-black">Your Order</h2>
@@ -93,7 +91,7 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='thankyou.html'">Place Order</button>
+                    <button class="btn btn-primary py-3 px-5 " onclick="window.location='thankyou.html'">Place Order</button>
                   </div>
                 </div>
               </div>

@@ -23,20 +23,17 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-5">
-            
-            
             <div class="site-section-heading pt-3 mb-4">
               <h2 class="text-black">How We Started</h2>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repellat, dicta at laboriosam, nemo exercitationem itaque eveniet architecto cumque, deleniti commodi molestias repellendus quos sequi hic fugiat asperiores illum. Atque, in, fuga excepturi corrupti error corporis aliquam unde nostrum quas.</p>
-            <p>Accusantium dolor ratione maiores est deleniti nihil? Dignissimos est, sunt nulla illum autem in, quibusdam cumque recusandae, laudantium minima repellendus.</p>
-            
+            <p>Nonces merupakan usaha UMKM yang berdiri sejak 2011 berlokasi di Bekasi.  Usaha Nonces ini merupakan usaha yang dibangun sendiri, dibangun oleh Fatma Albar. Berawalan dari “Milan Cake n Cookies” dimana para pembeli hanya dari kalangan keluarga dan teman.</p>
+            <p>Sempat vakum di tahun 2013-2015, dan kembali lagi dengan mengganti namanya menjadi “Nonces Cake and Cookies”. Usaha ini mengalami peningkatan tiap bulannya karena semakin banyak variasi makanan yang dijual sehingga para customer semakin menyukainya.</p>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="site-section border-bottom" data-aos="fade">
+    <!-- the team -->
+    <!-- <div class="site-section border-bottom" data-aos="fade">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 site-section-heading text-center pt-4">
@@ -103,5 +100,5 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>

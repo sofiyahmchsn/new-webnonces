@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <style>
-      .img_product{
+      .img_product {
         width: 100px;
         object-fit: contain;
       }
@@ -57,8 +57,12 @@
                         <span class="icon icon-person"></span>
                       </a>
                       <ul class="dropdown">
-                        <li><a href="index.php?page=my_profile">My Profile</a></li>
-                        <li><a href="index.php?page=my_orders">My Orders</a></li>
+                        <li>
+                          <a href="index.php?page=my_profile">My Profile</a>
+                        </li>
+                        <li>
+                          <a href="index.php?page=my_orders">My Orders</a>
+                        </li>
                         <li><a href="./user-area/login_user.php">Login</a></li>
                         <li><a href="./user-area/logout.php">Logout</a></li>
                       </ul>
@@ -80,7 +84,10 @@
             </div>
           </div>
         </div>
-        <nav class="site-navigation text-right text-md-center" role="navigation">
+        <nav
+          class="site-navigation text-right text-md-center"
+          role="navigation"
+        >
           <div class="container">
             <ul class="site-menu js-clone-nav d-none d-md-block">
               <li><a href="index.php?page=dashboard">Home</a></li>
@@ -94,7 +101,6 @@
               </li>
               <li><a href="index.php?page=menu">Our Menu</a></li>
               <li><a href="index.php?page=contact">Contact</a></li>
-              <li><a href="index.php?page=about">About</a></li>
             </ul>
           </div>
         </nav>
@@ -104,11 +110,9 @@
         if(@$_GET['page'] == 'dashboard' || @$_GET['page'] == ''){
           include"dashboard.php";
         }else if(@$_GET['page'] == 'menu'){
-          include"./user-area/menu.php";
+          include"menu.php";
         }else if(@$_GET['page'] == 'contact'){
           include"contact.php";
-        }else if(@$_GET['page'] == 'about'){
-          include"about.php";
         }else if(@$_GET['page'] == 'my_profile'){
           include"./user-area/profile.php";
         }else if(@$_GET['page'] == 'my_orders'){
@@ -118,13 +122,68 @@
         }else if(@$_GET['page'] == 'checkout'){
           include"checkout.php";
         }
-        // else if(@$_GET['page'] == 'checkout'){
-        //   include"checkout.php";
-        // }
       ?>
 
       <footer class="site-footer border-top">
         <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="footer-heading mb-4">Navigations</h3>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <ul class="list-unstyled">
+                    <li><a href="index.php?page=dashboard">Home</a></li>
+                    <li><a href="index.php?page=menu">Our menu</a></li>
+                    <li><a href="index.php?page=dashboard">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <ul class="list-unstyled">
+                    <li><a href="index.php?page=menu">Shop now</a></li>
+                    <li><a href="index.php?page=cart">Shoping cart</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <ul class="list-unstyled">
+                    <li><a href="index.php?page=my_profile">My Profile</a></li>
+                    <li><a href="index.php?page=all_orders">My Orders</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="block-5 mb-5">
+                <h3 class="footer-heading mb-4">Contact Info</h3>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled">
+                      <li class="address">
+                        203 Fake St. Mountain View, San Francisco, California,
+                        USA
+                      </li>
+                      <li class="phone">
+                        <a href="tel://23923929210">+2 392 3929 210</a>
+                      </li>
+                      <li class="email">emailaddress@domain.com</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled">
+                      <li class="address">
+                        <a href=""></a>
+                      </li>
+                      <li class="phone">
+                        <a href="tel://23923929210">+2 392 3929 210</a>
+                      </li>
+                      <li class="email">emailaddress@domain.com</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="row text-center">
             <div class="col-md-12">
               <p>
