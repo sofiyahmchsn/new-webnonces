@@ -1,7 +1,16 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
   <!-- Page Heading -->
-  <h1 class="h3 mb-5 text-gray-800">All Orders</h1>
+  <div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">All Orders</h1>
+    <a
+      href="export.php"
+      class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
+    >
+      <i class="fas fa-download fa-sm text-white-50"></i>
+      Generate Report
+    </a>
+  </div>
 
   <!-- Data products -->
   <div class="card shadow mb-4">
@@ -12,7 +21,7 @@
       <div class="table-responsive">
         <table
           class="table table-bordered"
-          id="dataTable"
+          id="ta"
           width="100%"
           cellspacing="0"
         >
@@ -35,7 +44,7 @@
               <td>Rp. 450000</td>
               <td>2</td>
               <td>21/3/2023</td>
-              <td><img src="" alt="" class="product_img"></td>
+              <td><img src="" alt="" class="product_img" /></td>
               <td>Complete/Incomplete</td>
               <td class="d-flex">
                 <a href="">
