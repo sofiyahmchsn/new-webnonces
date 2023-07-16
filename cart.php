@@ -30,14 +30,14 @@
                 <tbody>
                   <tr>
                     <td class="product-thumbnail">
-                      <img src="images/cloth_1.jpg" alt="Image" class="img-fluid">
+                      <img src="images/marmer-cake-cup.jpg" alt="Image" class="img_product">
                     </td>
                     <td class="product-name">
                       <h2 class="h5 text-black">Top Up T-Shirt</h2>
                     </td>
                     <td>$49.00</td>
                     <td>
-                      <div class="input-group mb-3" style="max-width: 120px;">
+                      <div class="input-group mb-3 m-auto" style="max-width: 120px;">
                         <div class="input-group-prepend">
                           <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
                         </div>
@@ -61,7 +61,7 @@
                     </td>
                     <td>$49.00</td>
                     <td>
-                      <div class="input-group mb-3" style="max-width: 120px;">
+                      <div class="input-group mb-3 m-auto" style="max-width: 120px;">
                         <div class="input-group-prepend">
                           <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
                         </div>

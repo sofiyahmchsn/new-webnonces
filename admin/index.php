@@ -164,9 +164,9 @@
         </li>
         <!-- Nav Item - Laporan Penjualan -->
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=report">
+          <a class="nav-link" href="index.php?page=delivery">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Sales Report</span></a
+            <span>Delivery</span></a
           >
         </li>
 
@@ -198,24 +198,7 @@
 
             <!-- Topbar Navbar -->
             <ul class="navbar-nav ml-auto">
-              <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-              <li class="nav-item dropdown no-arrow d-sm-none">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="searchDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <i class="fas fa-search fa-fw"></i>
-                </a>
-
-                <div class="topbar-divider d-none d-sm-block"></div>
-
-                <!-- Nav Item - User Information -->
-              </li>
+              <!-- Nav Item - User Information -->
 
               <li class="nav-item dropdown no-arrow">
                 <a
@@ -286,10 +269,12 @@
               include"add_user.php";
             }else if(@$_GET['page'] == 'order'){
               include"order.php";
-            }else if(@$_GET['page'] == 'report'){
-              include"report.php";
+            }else if(@$_GET['page'] == 'delivery'){
+              include"delivery.php";
             }else if(@$_GET['page'] == 'my_profile'){
               include"admin_profile.php";
+            }else if(@$_GET['page'] == 'insert_delivery'){
+              include"insert_delivery.php";
             }
             ?>
           </div>
@@ -349,7 +334,7 @@
             >
               Cancel
             </button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <a class="btn btn-primary" href="login_admin.php">Logout</a>
           </div>
         </div>
       </div>

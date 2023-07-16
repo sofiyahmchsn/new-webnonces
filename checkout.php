@@ -23,7 +23,7 @@
         <div class="row">
           <div class="col-md-12 mb-md-0">
             <h2 class="h3 text-black">Billing Details</h2>
-            <div class="p-lg-5 border">
+            <div class="p-lg-3 border">
               <div class="form-group">
                 <label for="c_country" class="text-black">Country <span class="text-danger">*</span></label>
                 <select id="c_country" class="form-control">

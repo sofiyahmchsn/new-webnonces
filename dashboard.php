@@ -13,9 +13,9 @@
                   <div class="block-4 text-center">
                     <figure class="block-4-image">
                       <img
-                        src="images/backed-potato.jpg"
+                        src="images/baked-potatoe.jpg"
                         alt="Image placeholder"
-                        class="img_product"
+                        class="img_menu"
                       />
                     </figure>
                     <div class="block-4-text p-4">
@@ -31,7 +31,7 @@
                       <img
                         src="images/cake-coklat-mini.jpg"
                         alt="Image placeholder"
-                        class="img_product"
+                        class="img_menu"
                       />
                     </figure>
                     <div class="block-4-text p-4">
@@ -45,15 +45,15 @@
                   <div class="block-4 text-center">
                     <figure class="block-4-image">
                       <img
-                        src="images/cloth_2.jpg"
+                        src="images/cinnamon-rolls.jpg"
                         alt="Image placeholder"
-                        class="img-fluid"
+                        class="img_menu"
                       />
                     </figure>
                     <div class="block-4-text p-4">
-                      <h3><a href="#">Polo Shirt</a></h3>
-                      <p class="mb-0">Finding perfect products</p>
-                      <p class="text-primary font-weight-bold">$50</p>
+                      <h3><a href="#">Cinamon Roll</a></h3>
+                      <p class="mb-0">20x20</p>
+                      <p class="text-primary font-weight-bold">Rp.225000</p>
                     </div>
                   </div>
                 </div>
@@ -61,15 +61,15 @@
                   <div class="block-4 text-center">
                     <figure class="block-4-image">
                       <img
-                        src="images/cloth_3.jpg"
+                        src="images/klappertart-box.jpg"
                         alt="Image placeholder"
-                        class="img-fluid"
+                        class="img_menu"
                       />
                     </figure>
                     <div class="block-4-text p-4">
-                      <h3><a href="#">T-Shirt Mockup</a></h3>
-                      <p class="mb-0">Finding perfect products</p>
-                      <p class="text-primary font-weight-bold">$50</p>
+                      <h3><a href="#">Klappertart</a></h3>
+                      <p class="mb-0">20x20</p>
+                      <p class="text-primary font-weight-bold">Rp.175000</p>
                     </div>
                   </div>
                 </div>
@@ -77,15 +77,15 @@
                   <div class="block-4 text-center">
                     <figure class="block-4-image">
                       <img
-                        src="images/shoe_1.jpg"
+                        src="images/spagheti-brulee.jpg"
                         alt="Image placeholder"
-                        class="img-fluid"
+                        class="img_menu"
                       />
                     </figure>
                     <div class="block-4-text p-4">
-                      <h3><a href="#">Corater</a></h3>
-                      <p class="mb-0">Finding perfect products</p>
-                      <p class="text-primary font-weight-bold">$50</p>
+                      <h3><a href="#">Spaghetti Brulle</a></h3>
+                      <p class="mb-0">20x20</p>
+                      <p class="text-primary font-weight-bold">Rp.175000</p>
                     </div>
                   </div>
                 </div>

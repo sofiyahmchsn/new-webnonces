@@ -14,7 +14,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2 class="h3 mb-3 text-black">Get In Touch</h2>
+            <h2 class="h3 mb-3 text-black">My Profile</h2>
           </div>
           <div class="col-md-12">
             <form action="#" method="post">              

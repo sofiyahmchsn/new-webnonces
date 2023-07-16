@@ -25,8 +25,14 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <style>
+      .img_menu {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+      }
       .img_product {
-        width: 100px;
+        width: 90px;
+        height: 90px;
         object-fit: contain;
       }
     </style>
@@ -100,7 +106,7 @@
                 </ul>
               </li>
               <li><a href="index.php?page=menu">Our Menu</a></li>
-              <li><a href="index.php?page=contact">Contact</a></li>
+              <li><a href="index.php?page=about">About</a></li>
             </ul>
           </div>
         </nav>
@@ -111,8 +117,8 @@
           include"dashboard.php";
         }else if(@$_GET['page'] == 'menu'){
           include"menu.php";
-        }else if(@$_GET['page'] == 'contact'){
-          include"contact.php";
+        }else if(@$_GET['page'] == 'about'){
+          include"about.php";
         }else if(@$_GET['page'] == 'my_profile'){
           include"./user-area/profile.php";
         }else if(@$_GET['page'] == 'my_orders'){
@@ -129,6 +135,7 @@
           <div class="row">
             <div class="col-lg-6 mb-5 mb-lg-0">
               <div class="row">
+                <!-- navigation footer -->
                 <div class="col-md-12">
                   <h3 class="footer-heading mb-4">Navigations</h3>
                 </div>
@@ -148,11 +155,12 @@
                 <div class="col-md-6 col-lg-4">
                   <ul class="list-unstyled">
                     <li><a href="index.php?page=my_profile">My Profile</a></li>
-                    <li><a href="index.php?page=all_orders">My Orders</a></li>
+                    <li><a href="index.php?page=my_orders">My Orders</a></li>
                   </ul>
                 </div>
               </div>
             </div>
+            <!-- contact footer -->
             <div class="col-lg-6 mb-5 mb-lg-0">
               <div class="block-5 mb-5">
                 <h3 class="footer-heading mb-4">Contact Info</h3>
@@ -160,30 +168,35 @@
                   <div class="col-lg-6">
                     <ul class="list-unstyled">
                       <li class="address">
-                        203 Fake St. Mountain View, San Francisco, California,
-                        USA
+                        Jln. Narogong Raya, Limus Pratama Regensi, Blitar VIII
+                        E/10 no. 16, Cileungsi Kab. Bogor 16820
                       </li>
                       <li class="phone">
-                        <a href="tel://23923929210">+2 392 3929 210</a>
+                        <a href="tel://081281252352">+62 812 8125 2352</a>
                       </li>
-                      <li class="email">emailaddress@domain.com</li>
+                      <li class="email">noncesalbar@gmail.com</li>
                     </ul>
                   </div>
                   <div class="col-lg-6">
                     <ul class="list-unstyled">
                       <li class="address">
-                        <a href=""></a>
+                        Instagram:
+                        <a
+                          href="https://instagram.com/nonces_albaar?igshid=MzRlODBiNWFlZA=="
+                          >nonces_albaar</a
+                        >
                       </li>
                       <li class="phone">
-                        <a href="tel://23923929210">+2 392 3929 210</a>
+                        Facebook:
+                        <a href="">Fatma Binti Ali Albaar</a>
                       </li>
-                      <li class="email">emailaddress@domain.com</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- copyright -->
           <div class="row text-center">
             <div class="col-md-12">
               <p>

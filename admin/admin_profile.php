@@ -19,7 +19,7 @@
               <div class="row">
                 <div class="col-lg-10 mx-auto">
                   <div class="p-3">
-                    <form class="user" enctype="multipart/form-data">
+                    <form class="user">
                       <div class="form-group">
                         <p class="text-gray-800 mb-3">Name</p>
                         <input
@@ -44,18 +44,14 @@
                       </div>
                       <div class="form-group">
                         <p class="text-gray-800 mb-3">Admin Profile</p>
-                        <div class="d-flex">
-                          <input
-                            type="file"
-                            class="form-control"
-                            id="adminProfile"
-                            aria-describedby="emailHelp"
-                          />
+                        <label for="username" class="form-control w-10">
                           <img
                             src="./product_images/lapis-legit-nutella.jpg"
                             alt=""
                             class="product_img"
                           />
+                        </label>
+                        <div class="d-flex">
                         </div>
                       </div>
                     </form>

@@ -11,14 +11,15 @@ insert_product.php bagian select option sama uploade image blm bener
 order.php bagian status di admin, adminnya klik complete kl udh ngirim bukti bayar trus di halaman user my order statusnya jd complete
 (jika di order.php recipt=true, maka status di click menjadi complete)
 (jika di order.php recipt=false, maka status = incomplete)
+admin_profile.php imagenya blm bener
+tambah data ongkir(delete, create)
 
 icon di sidebar mau diganti jd list
 
 yg belum admin=
 pemesanan offline
 bagian delete2an belum
-logout
 
 yg belum user=
-contact
+all_orders.php = bikin uplad bukti transfer (di klik trus masukkin foto foto) belom bener
 
