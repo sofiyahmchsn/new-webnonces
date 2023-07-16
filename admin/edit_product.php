@@ -7,7 +7,7 @@
           <p class="text-gray-800 mb-3">Title Product</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="titleProduct"
             aria-describedby="emailHelp"
             value="Lapis Legit Nutella"
@@ -17,7 +17,7 @@
           <p class="text-gray-800 mb-3">Description Product</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="descProduct"
             aria-describedby="emailHelp"
             value="20x20"
@@ -26,26 +26,20 @@
         <div class="form-group">
           <p class="text-gray-800 mb-3">Select Category</p>
           <!-- section -->
-          <select name="" id="" class="form-control form-control-user">
+          <select name="" id="" class="form-control">
+            <option value="">Select Category</option>
             <option value="">1</option>
             <option value="">2</option>
             <option value="">3</option>
             <option value="">4</option>
           </select>
-          <!-- <input
-            type="text"
-            class="form-control form-control-user"
-            id="titleProduct"
-            aria-describedby="emailHelp"
-            placeholder="Select Category"
-          /> -->
         </div>
         <div class="form-group">
           <p class="text-gray-800 mb-3">Image Product</p>
           <div class="d-flex">
             <input
               type="file"
-              class="form-control form-control-user"
+              class="form-control"
               id="imageProduct"
               aria-describedby="emailHelp"
             />
@@ -60,14 +54,14 @@
           <p class="text-gray-800 mb-3">Product Price</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="productPrice"
             aria-describedby="emailHelp"
             value="Rp.450000"
           />
         </div>
 
-        <a href="index.html" class="btn btn-primary btn-user btn-block">
+        <a href="index.html" class="btn btn-primary btn-block">
           Create
         </a>
       </form>

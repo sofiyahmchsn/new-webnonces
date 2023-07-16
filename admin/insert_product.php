@@ -7,7 +7,7 @@
           <p class="text-gray-800 mb-3">Title Product</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="titleProduct"
             aria-describedby="emailHelp"
             placeholder="Enter Title Product"
@@ -17,7 +17,7 @@
           <p class="text-gray-800 mb-3">Description Product</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="descProduct"
             aria-describedby="emailHelp"
             placeholder="Enter Description Product"
@@ -28,7 +28,7 @@
           <!-- section -->
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="titleProduct"
             aria-describedby="emailHelp"
             placeholder="Select Category"
@@ -38,7 +38,7 @@
           <p class="text-gray-800 mb-3">Image Product</p>
           <input
             type="file"
-            class="form-control form-control-user"
+            class="form-control"
             id="imageProduct"
             aria-describedby="emailHelp"
           />
@@ -47,14 +47,14 @@
           <p class="text-gray-800 mb-3">Product Price</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="productPrice"
             aria-describedby="emailHelp"
             placeholder="Enter Product Price"
           />
         </div>
 
-        <a href="index.html" class="btn btn-primary btn-user btn-block">
+        <a href="index.html" class="btn btn-primary btn-block py-2">
           Create
         </a>
       </form>

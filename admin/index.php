@@ -240,7 +240,7 @@
                   class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                   aria-labelledby="userDropdown"
                 >
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="index.php?page=my_profile">
                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                     Profile
                   </a>
@@ -288,6 +288,8 @@
               include"order.php";
             }else if(@$_GET['page'] == 'report'){
               include"report.php";
+            }else if(@$_GET['page'] == 'my_profile'){
+              include"admin_profile.php";
             }
             ?>
           </div>

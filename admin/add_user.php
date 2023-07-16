@@ -7,7 +7,7 @@
           <p class="text-gray-800 mb-3">Name</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="nameUser"
             aria-describedby="emailHelp"
             placeholder="Enter Your Name"
@@ -17,7 +17,7 @@
           <p class="text-gray-800 mb-3">Username</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="usernameUser"
             aria-describedby="emailHelp"
             placeholder="Enter Your Username"
@@ -27,7 +27,7 @@
           <p class="text-gray-800 mb-3">Email</p>
           <input
             type="email"
-            class="form-control form-control-user"
+            class="form-control"
             id="emailUser"
             aria-describedby="emailHelp"
             placeholder="Enter Your Email"
@@ -37,7 +37,7 @@
           <p class="text-gray-800 mb-3">Password</p>
           <input
             type="password"
-            class="form-control form-control-user"
+            class="form-control"
             id="passwordUser"
             aria-describedby="emailHelp"
             placeholder="Enter Your Password"
@@ -47,7 +47,7 @@
           <p class="text-gray-800 mb-3">Confirm Password</p>
           <input
             type="password"
-            class="form-control form-control-user"
+            class="form-control"
             id="confPasswordUser"
             aria-describedby="emailHelp"
             placeholder="Enter Your Password"
@@ -57,7 +57,7 @@
           <p class="text-gray-800 mb-3">Address</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="addressUser"
             aria-describedby="emailHelp"
             placeholder="Enter Your Address"
@@ -67,14 +67,14 @@
           <p class="text-gray-800 mb-3">Contact</p>
           <input
             type="text"
-            class="form-control form-control-user"
+            class="form-control"
             id="contactUser"
             aria-describedby="emailHelp"
             placeholder="Enter Your Phone"
           />
         </div>
 
-        <a href="index.html" class="btn btn-primary btn-user btn-block">
+        <a href="index.html" class="btn btn-primary btn-block">
           Create
         </a>
       </form>

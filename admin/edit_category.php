@@ -6,7 +6,7 @@
         <div class="form-group">
           <input
             type="email"
-            class="form-control form-control-user"
+            class="form-control"
             id="titleCat"
             aria-describedby="emailHelp"
             value="Cake"
@@ -14,7 +14,7 @@
         </div>
         <a
           href="index.php?page=all_category"
-          class="btn btn-primary btn-user btn-block"
+          class="btn btn-primary btn-block"
         >
           Edit Category
         </a>
