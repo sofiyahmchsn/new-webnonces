@@ -2,12 +2,11 @@ folder navbar udh ga gue pake
 semua yg gue ubah gue ganti jd html static
 // user
 index.php nya user di my profile gue mau bikin drodown gt tp gagal wkwk
+checkout.php gue tambahin upload image buat bukti transfer
+checkout.php gue tambahin select option buat ongkir gt tar di jumlahin di total ordersnya
 
 //admin
 view_products.php gadipake, gue ganti jd all_product.php
-checkout.php masi agak kacau
-checkout.php gue tambahin upload image buat bukti transfer
-checkout.php gue tambahin select option buat ongkir gt tar di jumlahin di total ordersnya
 insert_product.php bagian select option sama uploade image blm bener
 order.php bagian status di admin, adminnya klik complete kl udh ngirim bukti bayar trus di halaman user my order statusnya jd complete
 (jika di order.php recipt=true, maka status di click menjadi complete)
@@ -21,3 +20,6 @@ bagian delete2an belum
 logout
 
 yg belum user=
+contact
+about us
+

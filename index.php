@@ -57,14 +57,14 @@
                         <span class="icon icon-person"></span>
                       </a>
                       <ul class="dropdown">
-                        <li><a href="?page=my_profile">My Profile</a></li>
-                        <li><a href="?page=my_orders">My Orders</a></li>
+                        <li><a href="index.php?page=my_profile">My Profile</a></li>
+                        <li><a href="index.php?page=my_orders">My Orders</a></li>
                         <li><a href="./user-area/login_user.php">Login</a></li>
                         <li><a href="./user-area/logout.php">Logout</a></li>
                       </ul>
                     </li>
                     <li>
-                      <a href="?page=cart" class="site-cart">
+                      <a href="index.php?page=cart" class="site-cart">
                         <span class="icon icon-shopping_cart"></span>
                         <span class="count">2</span>
                       </a>
@@ -83,7 +83,7 @@
         <nav class="site-navigation text-right text-md-center" role="navigation">
           <div class="container">
             <ul class="site-menu js-clone-nav d-none d-md-block">
-              <li><a href="?page=dashboard">Home</a></li>
+              <li><a href="index.php?page=dashboard">Home</a></li>
               <li class="has-children">
                 <a href="#">Category</a>
                 <ul class="dropdown">
@@ -92,9 +92,9 @@
                   <li><a href="#">Cat Three</a></li>
                 </ul>
               </li>
-              <li><a href="?page=menu">Our Menu</a></li>
-              <li><a href="?page=contact">Contact</a></li>
-              <li><a href="?page=about">About</a></li>
+              <li><a href="index.php?page=menu">Our Menu</a></li>
+              <li><a href="index.php?page=contact">Contact</a></li>
+              <li><a href="index.php?page=about">About</a></li>
             </ul>
           </div>
         </nav>
@@ -115,6 +115,8 @@
           include"./user-area/all_orders.php";
         }else if(@$_GET['page'] == 'cart'){
           include"cart.php";
+        }else if(@$_GET['page'] == 'checkout'){
+          include"checkout.php";
         }
         // else if(@$_GET['page'] == 'checkout'){
         //   include"checkout.php";

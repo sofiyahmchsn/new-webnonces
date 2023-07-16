@@ -4,7 +4,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 mb-0">
-              <a href="?page=dashboard">Home</a> <span class="mx-2 mb-0">/</span>
+              <a href="index.php?page=dashboard">Home</a> <span class="mx-2 mb-0">/</span>
               <strong class="text-black">Cart</strong>
             </div>
           </div>
@@ -88,7 +88,7 @@
                 <button class="btn btn-primary btn-sm btn-block">Update Cart</button>
               </div>
               <div class="col-md-6">
-                <button class="btn btn-outline-primary btn-sm btn-block"><a href="?page=dashboard">Continue Shopping</a></button>
+                <button class="btn btn-outline-primary btn-sm btn-block"><a href="index.php?page=dashboard">Continue Shopping</a></button>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@
 
                 <div class="row">
                   <div class="col-md-12">
-                    <button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='checkout.php'">Proceed To Checkout</button>
+                    <button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='index.php?page=checkout'">Proceed To Checkout</button>
                     <!-- <a href="?page=checkout">Proceed To Checkout</a> -->
                   </div>
                 </div>

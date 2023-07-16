@@ -16,7 +16,7 @@
           <div class="col-md-12">
             <h2 class="h3 mb-3 text-black">Get In Touch</h2>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-12">
             <form action="#" method="post">              
               <div class="p-3 p-lg-5 border">
                 <div class="form-group row">
@@ -50,7 +50,7 @@
                   </div>
                 </div>
                 <div class="form-group row">
-                  <div class="col-lg-12">
+                  <div class="col-lg-3">
                     <input type="submit" class="btn btn-primary btn-lg btn-block" value="Edit Profile">
                   </div>
                 </div>
