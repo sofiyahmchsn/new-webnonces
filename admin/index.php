@@ -68,91 +68,26 @@
 
         <!-- Nav Item - category -->
         <li class="nav-item">
-          <a
-            class="nav-link collapsed"
-            href="#"
-            data-toggle="collapse"
-            data-target="#collapseTwo"
-            aria-expanded="true"
-            aria-controls="collapseTwo"
-          >
+          <a class="nav-link" href="index.php?page=all_category">
             <i class="fas fa-fw fa-cog"></i>
-            <span>Category</span>
-          </a>
-          <div
-            id="collapseTwo"
-            class="collapse"
-            aria-labelledby="headingTwo"
-            data-parent="#accordionSidebar"
+            <span>Category</span></a
           >
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="index.php?page=all_category"
-                >All Category</a
-              >
-              <a class="collapse-item" href="index.php?page=insert_category"
-                >Insert Category</a
-              >
-            </div>
-          </div>
         </li>
 
         <!-- Nav Item - Products -->
         <li class="nav-item">
-          <a
-            class="nav-link collapsed"
-            href="#"
-            data-toggle="collapse"
-            data-target="#collapseUtilities"
-            aria-expanded="true"
-            aria-controls="collapseUtilities"
-          >
+          <a class="nav-link" href="index.php?page=all_product">
             <i class="fas fa-fw fa-wrench"></i>
-            <span>Products</span>
-          </a>
-          <div
-            id="collapseUtilities"
-            class="collapse"
-            aria-labelledby="headingUtilities"
-            data-parent="#accordionSidebar"
+            <span>Product</span></a
           >
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="index.php?page=all_product"
-                >All Product</a
-              >
-              <a class="collapse-item" href="index.php?page=insert_product"
-                >Insert Product</a
-              >
-            </div>
-          </div>
         </li>
+        
         <!-- Nav Item - user data -->
         <li class="nav-item">
-          <a
-            class="nav-link collapsed"
-            href="#"
-            data-toggle="collapse"
-            data-target="#collapsePages"
-            aria-expanded="true"
-            aria-controls="collapsePages"
-          >
+          <a class="nav-link" href="index.php?page=all_user">
             <i class="fas fa-fw fa-folder"></i>
-            <span>User Data</span>
-          </a>
-          <div
-            id="collapsePages"
-            class="collapse"
-            aria-labelledby="headingPages"
-            data-parent="#accordionSidebar"
+            <span>User</span></a
           >
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="index.php?page=all_user"
-                >All User</a
-              >
-              <a class="collapse-item" href="index.php?page=add_user"
-                >Add User</a
-              >
-            </div>
-          </div>
         </li>
 
         <!-- Nav Item - Pemesanan -->
@@ -269,6 +204,8 @@
               include"add_user.php";
             }else if(@$_GET['page'] == 'order'){
               include"order.php";
+            }else if(@$_GET['page'] == 'new_order'){
+              include"new_order.php";
             }else if(@$_GET['page'] == 'delivery'){
               include"delivery.php";
             }else if(@$_GET['page'] == 'my_profile'){

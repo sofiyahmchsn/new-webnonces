@@ -1,7 +1,16 @@
 <!-- Begin Page Content -->
 <div class="container-fluid">
   <!-- Page Heading -->
-  <h1 class="h3 mb-4 text-gray-800">All User</h1>
+  <div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">All User</h1>
+    <a
+      href="index.php?page=add_user"
+      class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
+    >
+      <i class="fas fa-download fa-sm text-white-50"></i>
+      Insert User
+    </a>
+  </div>
 
   <!-- Data products -->
   <div class="card shadow mb-4">

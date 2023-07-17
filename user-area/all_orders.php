@@ -37,13 +37,10 @@
                   <td class="total-product">2</td>
                   <td class="invoice-number">123456789</td>
                   <td class="date">21/3/2023</td>
-                  <td class="status">Complete/Incomplete</td>
+                  <td class="status">Incomplete</td>
                   <!-- upload image -->
                   <td class="recipt">
-                    <a href=""
-                      >upload
-                      <input type="file" class="form-control" id="recipt" />
-                    </a>
+                    <input type="file" name="recipt" class="form-control m-1" id="recipt"/>
                     <!-- <img src="images/cloth_1.jpg" alt="Image" class="img-fluid"> -->
                   </td>
                 </tr>
@@ -56,14 +53,6 @@
       <div class="row">
         <div class="col-md-6">
           <div class="row mb-5">
-            <div class="col-md-6 mb-3 mb-md-0">
-              <button
-                class="btn btn-primary btn-sm btn-block"
-                onclick="window.location='checkout.html'"
-              >
-                Update Cart
-              </button>
-            </div>
             <div class="col-md-6">
               <button
                 class="btn btn-outline-primary btn-sm btn-block"
@@ -74,37 +63,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 pl-5">
-          <div class="row justify-content-end">
-            <div class="col-md-7">
-              <div class="row">
-                <div class="col-md-12 text-right border-bottom mb-5">
-                  <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
-                </div>
-              </div>
-
-              <div class="row mb-5">
-                <div class="col-md-6">
-                  <span class="text-black">Total</span>
-                </div>
-                <div class="col-md-6 text-right">
-                  <strong class="text-black">$230.00</strong>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-12">
-                  <button
-                    class="btn btn-primary btn-lg py-3 btn-block"
-                    onclick="window.location='index.php?page=checkout'"
-                  >
-                    Proceed To Checkout
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </div>

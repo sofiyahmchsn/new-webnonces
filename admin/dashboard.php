@@ -11,7 +11,7 @@
             <div
               class="text-xs font-weight-bold text-primary text-uppercase mb-1"
             >
-              Pesanan Masuk
+              Incoming Orders
             </div>
             <div class="h5 mb-0 font-weight-bold text-gray-800">5</div>
           </div>
@@ -31,7 +31,7 @@
             <div
               class="text-xs font-weight-bold text-warning text-uppercase mb-1"
             >
-              Kategori
+              Category
             </div>
             <div class="h5 mb-0 font-weight-bold text-gray-800">8</div>
           </div>
@@ -51,7 +51,7 @@
             <div
               class="text-xs font-weight-bold text-success text-uppercase mb-1"
             >
-              Data Produk
+              Product
             </div>
             <div class="h5 mb-0 font-weight-bold text-gray-800">11</div>
           </div>
@@ -71,7 +71,7 @@
             <div
               class="text-xs font-weight-bold text-info text-uppercase mb-1"
             >
-              Data User
+              User Data
             </div>
             <div class="h5 mb-0 font-weight-bold text-gray-800">5</div>
           </div>
