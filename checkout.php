@@ -91,7 +91,7 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <button class="btn btn-primary py-3 px-5 " onclick="window.location='thankyou.html'">Place Order</button>
+                    <button class="btn btn-primary py-3 px-5 " onclick="window.location='index.php?page=my_orders'">Place Order</button>
                   </div>
                 </div>
               </div>
